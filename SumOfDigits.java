@@ -7,11 +7,8 @@ public class SumOfDigits {
 	 * input: 123 output: 1+2+3 = 6
 	 * 
 	 */
-	
 
 	public static void main(String[] args) {
-String s = Hello;
-System.out.println(s.charAt(s.toUpperCase().length()));
 // Declare your input number (int)
 		int input = 123;
 		// Initialize an integer variable by name: sum
@@ -20,14 +17,14 @@ System.out.println(s.charAt(s.toUpperCase().length()));
 		// number goes greater than 0
 		while (input != 0) {
 			digit = input % 10;
-			//System.out.println("first sum "+sum);
+			// System.out.println("first sum "+sum);
 			sum = sum + digit;
-			System.out.println(digit);
+			// System.out.println(digit);
 			input = input / 10;
-			//System.out.println(input);
+			// System.out.println(input);
 		}
 		// Outside the loop: print the final sum
- System.out.println("Sum of Digits: " + sum);
+		System.out.println("Sum of Digits: " + sum);
 	}
 
 }
